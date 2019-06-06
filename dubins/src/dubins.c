@@ -35,6 +35,16 @@
 #define INFINITY 3.402823466e+38F
 #endif
 
+#ifdef _MSC_VER
+    #define INLINE __inline
+
+    INLINE double fmax(double left, double right)
+    { return (left > right) ? left : right; }
+
+    INLINE double fmin(double left, double right)
+    { return (left < right) ? left : right; }
+#endif
+
 typedef enum 
 {
     L_SEG = 0,
