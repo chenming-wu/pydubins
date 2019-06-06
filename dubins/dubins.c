@@ -526,13 +526,6 @@ static CYTHON_INLINE float __PYX_NAN() {
 #ifdef _OPENMP
 #include <omp.h>
 #endif /* _OPENMP */
-#ifndef M_PI
-# define M_PI		3.14159265358979323846	/* pi */
-#endif
-
-#ifndef INFINITY
-#define INFINITY 3.402823466e+38F
-#endif
 
 #if defined(PYREX_WITHOUT_ASSERTIONS) && !defined(CYTHON_WITHOUT_ASSERTIONS)
 #define CYTHON_WITHOUT_ASSERTIONS

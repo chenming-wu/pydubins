@@ -27,6 +27,14 @@
 
 #define EPSILON (10e-10)
 
+#ifndef M_PI
+# define M_PI		3.14159265358979323846	/* pi */
+#endif
+
+#ifndef INFINITY
+#define INFINITY 3.402823466e+38F
+#endif
+
 typedef enum 
 {
     L_SEG = 0,
