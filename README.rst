@@ -26,7 +26,7 @@ Or, you can install the latest development version from `GitHub <https://github.
 
 .. code-block:: console
 
-    $ pip install git+git://github.com/AndrewWalker/pydubins.git
+    $ pip install git+git://github.com/chenming-wu/pydubins.git
 
 Example
 =======
